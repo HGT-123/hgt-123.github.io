@@ -1,2 +1,6 @@
 <!DOCTYPE html>
-<h1> hello </h1>
+<head>
+<link rel="stylesheet" href="/styles/style.css">
+  </head>
+<body>
+  <h1> hello </h1>
