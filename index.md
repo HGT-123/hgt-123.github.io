@@ -1,6 +1,0 @@
-<!DOCTYPE html>
-<head>
-<link rel="stylesheet" href="/css/style.css">
-  </head>
-<body>
-  <h1> hello </h1>
