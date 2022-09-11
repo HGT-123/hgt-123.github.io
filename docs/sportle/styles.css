@@ -206,3 +206,7 @@ body {
 .alert.hide {
   opacity: 0;
 }
+h1{
+  display: box;
+  color: white;
+}
