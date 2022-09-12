@@ -1,2 +1,0 @@
-# sportle
-DOnt bother
