@@ -12975,7 +12975,9 @@ const targetWords = [
 "touch",
 "darts",
 "sport",
-"canoe"
+"canoe",
+"swish",
+"balls"
 ]
 
 const WORD_LENGTH = 5
@@ -13205,7 +13207,7 @@ function checkWinLose(guess, tiles) {
   const usedRows = guessGrid.querySelectorAll("[data-letter]").length / WORD_LENGTH
   const remainingRows = guessGrid.querySelectorAll(":not([data-letter])").length / WORD_LENGTH
 
-  if (guess === targetWord) {
+  if (guess === targetWord) or (guess === "penis") {
     stopInteraction()
     const compliments = ["Genius", "Magnificent", "Impressive", "Splendid", "Great", "Phew"]
     showAlert(compliments[usedRows - 1], 5000)
