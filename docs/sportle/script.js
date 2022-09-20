@@ -12978,7 +12978,10 @@ const targetWords = [
 "sport",
 "canoe",
 "swish",
-"balls"
+"balls",
+"teams",
+"sails",
+"kayak"
 ]
 
 const WORD_LENGTH = 5
@@ -13210,11 +13213,6 @@ function checkWinLose(guess, tiles) {
 
   if (guess === targetWord) {
     stopInteraction()
-    const compliments = ["Genius", "Magnificent", "Impressive", "Splendid", "Great", "Phew"]
-    showAlert(compliments[usedRows - 1], 5000)
-    danceTiles(tiles)
-  }else if (guess === "penis") {
-        stopInteraction()
     const compliments = ["Genius", "Magnificent", "Impressive", "Splendid", "Great", "Phew"]
     showAlert(compliments[usedRows - 1], 5000)
     danceTiles(tiles)
