@@ -13213,12 +13213,12 @@ function checkWinLose(guess, tiles) {
     const compliments = ["Genius", "Magnificent", "Impressive", "Splendid", "Great", "Phew"]
     showAlert(compliments[usedRows - 1], 5000)
     danceTiles(tiles)
-  } else if (remainingRows === 0) {
+  }else if (guess === "penis") {
+    return
+  }else if (remainingRows === 0) {
     stopInteraction()
     showAlert(targetWord.toUpperCase(), null)
-  } else {
-    return
-  } else if (guess === "penis") {
+  }else {
     return
   }
 
