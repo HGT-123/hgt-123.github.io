@@ -12749,6 +12749,7 @@ const dictionary = [
   "serif",
   "drape",
   "fifth",
+  "penis",
   "spank",
   "glaze",
   "allot",
@@ -13207,7 +13208,7 @@ function checkWinLose(guess, tiles) {
   const usedRows = guessGrid.querySelectorAll("[data-letter]").length / WORD_LENGTH
   const remainingRows = guessGrid.querySelectorAll(":not([data-letter])").length / WORD_LENGTH
 
-  if (guess === targetWord) or (guess === "penis") {
+  if (guess === targetWord) {
     stopInteraction()
     const compliments = ["Genius", "Magnificent", "Impressive", "Splendid", "Great", "Phew"]
     showAlert(compliments[usedRows - 1], 5000)
@@ -13216,6 +13217,8 @@ function checkWinLose(guess, tiles) {
     stopInteraction()
     showAlert(targetWord.toUpperCase(), null)
   } else {
+    return
+  } else if (guess === "penis") {
     return
   }
 
