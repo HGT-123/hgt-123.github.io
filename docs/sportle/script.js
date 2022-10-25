@@ -12972,16 +12972,13 @@ const dictionary = [
 ]
 
 const targetWords = [
-"coach",
-"touch",
-"darts",
-"sport",
 "canoe",
 "swish",
 "balls",
 "teams",
 "sails",
-"kayak"
+"kayak",
+"races"
 ]
 
 const WORD_LENGTH = 5
