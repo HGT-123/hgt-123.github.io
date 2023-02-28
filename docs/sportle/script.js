@@ -13211,6 +13211,8 @@ function checkWinLose(guess, tiles) {
 
   if (guess === targetWord) {
     stopInteraction()
+    let beat = new Audio('beat.mp3');
+    beat.play();
     const compliments = ["Genius", "Magnificent", "Impressive", "Splendid", "Great", "Phew"]
     showAlert(compliments[usedRows - 1], 5000)
     danceTiles(tiles)
